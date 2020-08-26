@@ -1,0 +1,66 @@
+[
+    {
+        "question": "What does CSS stand for?",
+        "optionA": "Computer Style Sheets", 
+        "optionB": "Creative Style Sheets",
+        "optionC": "Cascading Style Sheets", 
+        "optionD": "Colorful Style Sheets",
+        "answer": "Cascading Style Sheets"
+    },
+    {
+       "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+       "optionA": "In the <head> section", 
+       "optionB": "In the <body> section", 
+       "optionC": "At the end of the document", 
+       "optionD": "You can't refer to an external style sheet",
+       "answer": "In the <head> section"
+    },    
+    {
+        "question": "Which HTML tag is used to define an internal style sheet?",
+        "optionA": "<style>", 
+        "optionB": "<script>", 
+        "optionC": "<headStyle>", 
+        "optionD": "<css>",
+        "answer": "<style>"
+    },    
+    {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "optionA": "class", 
+        "optionB": "style", 
+        "optionC": "font", 
+        "optionD": "styles",
+        "answer": "style"
+    },
+    {
+        "question": "Which is the correct CSS syntax?",
+        "optionA": "{body:color=black;}", 
+        "optionB": "{body;color:black;}", 
+        "optionC": "body:color=black;", 
+        "optionD": "body {color: black;}",
+        "answer": "body {color: black;}"
+    },
+    {
+        "question": "How do you insert a comment in a CSS file?",
+        "optionA": "'\\' this is a comment", 
+        "optionB": "/* this is a comment */", 
+        "optionC": "// this is a comment", 
+        "optionD": "// this is a comment //",
+        "answer": "/* this is a comment */"
+    },
+    {
+        "question": "Which property is used to change the background color?",
+        "optionA": "color", 
+        "optionB": "bgcolor", 
+        "optionC": "background-color", 
+        "optionD": "bgColor",
+        "answer": "background-color"
+    },
+    {
+        "question": "How do you add a background color for all <h1> elements?",
+        "optionA": "all.h1 {background-color:#FFFFFF;}", 
+        "optionB": "h1.setAll {background-color:#FFFFFF;}", 
+        "optionC": "h1.all {background-color:#FFFFFF;}", 
+        "optionD": "h1 {background-color:#FFFFFF;}",
+        "answer": "h1 {background-color:#FFFFFF;}"
+    }    
+]

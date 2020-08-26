@@ -1,0 +1,43 @@
+{
+  "name": "new_fol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@mdi/font": "^5.5.55",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.18.2",
+    "classnames": "^2.2.6",
+    "concurrently": "^3.5.1",
+    "cookie-parser": "^1.4.3",
+    "expect": "^26.4.0",
+    "express": "^4.16.2",
+    "is-empty": "^1.2.0",
+    "is_empty": "0.0.11",
+    "jsonwebtoken": "^8.0.1",
+    "materialize-css": "^1.0.0",
+    "moment": "^2.27.0",
+    "moment-js": "^1.1.15",
+    "mongoose": "^4.10.8",
+    "node-sass": "^4.14.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "ravepay": "^1.3.0",
+    "react-helmet": "^6.1.0",
+    "validator": "^13.1.1",
+    "validatorjs": "^3.18.1"
+  }
+}

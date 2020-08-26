@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Timmy\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add node-sass
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Timmy\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\Microsoft\Web Platform Installer;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\Timmy\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\Timmy\AppData\Local\Programs\Python\Python37-32;C:\Users\Timmy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2019.2\bin;C:\Users\Timmy\AppData\Local\Microsoft\WindowsApps;C:\Users\Timmy\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/levenary/-/levenary-1.1.1.tgz: ENOENT: no such file or directory, open 'C:\Users\Timmy\AppData\Local\Yarn\Cache\v6\npm-levenary-1.1.1-842a9ee98d2075aa7faeedbe32679e9205f46f77-integrity\node_modules\levenary\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "axios": "^0.17.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-fontawesome": "^1.6.1",
+      "react-redux": "^5.0.6",
+      "react-router-dom": "^4.2.2",
+      "react-scripts": "3.4.1",
+      "react-simple-sidenav": "^0.1.6",
+      "redux": "^3.7.2",
+      "redux-promise": "^0.5.3",
+      "redux-thunk": "^2.2.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "proxy":"http://localhost:3001/"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
